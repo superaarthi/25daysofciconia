@@ -1,4 +1,14 @@
-head {
- text-align: center;
- font-family: Arial, Helvetica, sans-serif;
+body {
+	text-align: center;
+  font-family: "Palatino Linotype", serif;
+}
+
+#title {
+	background: crimson;
+	padding: 20px;
+}
+
+#countdown {
+	background: lightgreen;
+  padding: 20px;
 }
