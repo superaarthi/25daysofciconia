@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script src="todaysknight.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+<div id="title">
+  <h3 id="intro">Hello A4W! Welcome to</h3>
+  <h1 id="title">25 Days of Ciconia!</h1>
+</div>
+
+<p id="tagline">A countdown to... the signing of the peace treaty!</p>
+
+<div id="todaysknightdisplay">
+  <h2 id="todays">Today's Gauntlet Knight is...</h2>
+  <img src="Meow.png"></img>
+  <div id="todaysknightstats">
+    <p id="todaysname">Meow</p>
+    <p id="todayscountry">AOU Japan</p>
+    <p id="todaysteam">Warcat</p>
+  </div>
+
+  <p id="todaysdesc">Meow would like to wish you a very merry Christmas and invite you to her Christmas party! Everyone is invited! Let's be with our friends as we celebrate and hold up the Walls of Peace until the treaty is signed!</p>
+</div>
+
+<script>
+(function() {
+  document.getElementById("todaysname").innerHTML = todaysKnight.name;
+  document.getElementById("todayscountry").innerHTML = todaysKnight.country;
+  document.getElementById("todaysteam").innerHTML = todaysKnight.team;
+})();
+</script>
+
+</body>
+</html>
