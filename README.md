@@ -1,7 +1,7 @@
 # 25daysofciconia
 Simple fun project I made to play with Google Cloud Storage and one of my favorite VNs :)
 
-To see this project in action, go to: 25daysofciconia.com
+To see this project in action, go to: www.25daysofciconia.com
 
 Hey everyone! This is definitely a work in progress, here's a bit about what it is, and what it's meant to be!
 
